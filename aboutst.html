@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+    body{
+       background-image: url(stodes1.jpg);
+    }
+    nav.navbar {
+      padding: 25px;
+    }
+
+    .navbar-brand {
+      width: 150px;
+    }
+
+    .btn.btn-outline-success {
+      color: white;
+      border-color: white;
+      box-shadow: 2px 2px;
+    }
+
+    img.logo {
+      border-radius: 30px;
+    }
+
+    img.logo:hover {
+      zoom: 200%;
+    }
+
+    a.nav-link {
+      margin-left: 20px;
+    }
+
+    a.nav-link:hover {
+      border-style: ridge;
+      font-weight: bolder;
+      border-width: 0px 0px 4px;
+    }
+
+
+
+    .list-unstyled.d-flex {
+      width: 100px;
+      margin-right: 2%;
+    }
+
+    img.bi {
+      margin-left: 7px;
+    }
+
+
+    .box {
+      width: 100%;
+      display: flex;
+    }
+
+    .profile {
+      width: 50%;
+      height: 400px;
+      text-align: center;
+    }
+
+    img.pic {
+      border-radius: 50%;
+      border-style: outset;
+      border-width: 10px;
+      box-shadow: 0 0 30px #08eda5;
+    }
+
+    .about {
+      width: 50%;
+      height: 525px;
+      text-align: center;
+
+    }
+
+    @media screen and (max-width:830px) {
+      .box {
+        flex-direction: column;
+      }
+
+      img.pic {
+        width: 250px;
+        height: 250px;
+      }
+      .profile{
+        width:100%;
+        height: 300px;
+      
+      }
+
+      .about {
+        margin: auto;
+        width: 100%;
+        height: 650px;
+        font-size: 20px;
+      }
+    }
+
+    h2 {
+      font-size: 60px;
+      color: #fff;
+      text-align: center;
+      animation: h2 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes h2 {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+   h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+  </style>
+
+  <title>Heaven of the Story teller</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">
+      <img class="logo" src="logo.jpg" width="40" height="40" alt="">
+      <b>
+        <font color="white">Story</font>
+      </b>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-lg-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">
+            <font color="white">Home</font>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <font color="white">About Us</font>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            <font color="white">Story Activity</font>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Performance</a>
+            <a class="dropdown-item" href="#">Creativity</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <font color="white">Gallery</font>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            <font color="white">Contact Us</font>
+          </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+  <br>
+  <br>
+  <div class="box">
+    <div class="profile">
+      <img class="pic" src="profile.jpeg" height="400px" width="400px" />
+    </div>
+    <div class="about">
+      <font color="white">
+        <h1><u>About Us</u></h1>
+      </font>
+      <font color="white">
+        <h2> Web Designer</h2>
+      </font>
+      <font color="white">
+      <p><b>It’s common for a website designer to be confused with a website developer. A developer uses coding languages
+        to create the framework of a website. They build the structure and then turn the site over to a designer to
+        beautify it. That what I do. A web developer is a programmer or a coder who develops World Wide Web applications
+        using a client–server model. The applications typically use HTML, CSS and JavaScript in the client. </b></p>
+      </font>
+
+    </div>
+  </div>
+
+
+  <div class="d-flex justify-content-between py-4 bg-light">
+    <p>The is the Heaven of your thoughts <a href="https://getbootstrap.com/">@KissaGhar.</a>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+    </p>
+
+    <ul class="list-unstyled d-flex ">
+      <li class="ms-3"><a class="link-dark" href="https://twitter.com/rajuhaldar2606"><img src="twitter.png" class="bi"
+            width="24" height="24"></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><img src="insta.png" class="bi" width="24" height="24"></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><img src="facebook.png" class="bi" width="24" height="24"></a>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
